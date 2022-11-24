@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiApp", "MultiApp\MultiApp.csproj", "{713D387B-2A2F-42F2-9009-71F37548D8EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{D84FF83D-1F17-4C5C-AD8A-388B43CF5CE4}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5F105377-C26C-42D7-8222-F13136FE65A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{713D387B-2A2F-42F2-9009-71F37548D8EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713D387B-2A2F-42F2-9009-71F37548D8EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{713D387B-2A2F-42F2-9009-71F37548D8EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713D387B-2A2F-42F2-9009-71F37548D8EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D84FF83D-1F17-4C5C-AD8A-388B43CF5CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D84FF83D-1F17-4C5C-AD8A-388B43CF5CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D84FF83D-1F17-4C5C-AD8A-388B43CF5CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D84FF83D-1F17-4C5C-AD8A-388B43CF5CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F105377-C26C-42D7-8222-F13136FE65A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F105377-C26C-42D7-8222-F13136FE65A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F105377-C26C-42D7-8222-F13136FE65A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F105377-C26C-42D7-8222-F13136FE65A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCC699F0-E5E3-46B8-AAA6-47140A7737FA}
+	EndGlobalSection
+EndGlobal

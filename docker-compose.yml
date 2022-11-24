@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  multiapp:
+    image: natymony/examultiapp:latest
+    build:
+      context: git://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@github.com/natymony/multiapi.git
+      dockerfile: MultiApp/Dockerfile
+
+
+  webapi:
+    image: natymony/exawebapi:latest
+    build:
+      context: git://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@github.com/natymony/WebApi.git
+      dockerfile: WebApi/Dockerfile
+ 
+
+
+
